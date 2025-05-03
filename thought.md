@@ -1,0 +1,8 @@
+# Coupon System
+
+## Thoughts
+
+### Database Schema
+- USER (USER_ID, NAME) 
+- USERCOUPON (USER_ID, COUPON_ID, TYPE, STATUS, USED_AT)
+- COUPON (COUPON_ID, CODE, REMAINING, EXPIRED_AT, CREATED_AT)
